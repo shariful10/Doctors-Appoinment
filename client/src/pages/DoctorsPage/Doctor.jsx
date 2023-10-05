@@ -20,7 +20,7 @@ const Doctor = () => {
 					</div>
 				</div>
 			</section>
-			{/* <======<<======= Title & Searchbar  =======>>======> */}
+			{/* <======<<======= Title & Searchbar =======>>======> */}
 			<section>
 				<div className="container">
 					<div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 gap-y-10">
