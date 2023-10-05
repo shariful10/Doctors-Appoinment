@@ -1,5 +1,6 @@
 import { useState } from "react";
 import BtnSubmit from "../../components/BtnSubmit/BtnSubmit";
+import { Link } from "react-router-dom";
 
 const Login = () => {
 	const [formData, setFormData] = useState({
@@ -13,8 +14,8 @@ const Login = () => {
 
 	return (
 		<section className="px-5 lg:px-0">
-			<div className="w-full max-w-[570px] mx-auto rounded-lg shadow-md md:p-10">
-				<h3 className="text-primaryColor text-[22px] leading-9 font-bold mb-10">
+			<div className="w-full max-w-[570px] mx-auto rounded-lg shadow-md md:p-10 container">
+				<h3 className="text-primaryColor text-[22px] leading-9 font-bold mb-10 text-center">
 					Hello! <span className="text-irisBlueColor">Welcome</span> Back 🥳
 				</h3>
 				<form className="py-4 md:py-0">
@@ -43,7 +44,15 @@ const Login = () => {
 					<div className="mt-12">
 						<BtnSubmit title={"Login"} />
 					</div>
-					<p className="mt-5">Don&apos;t</p>
+					<p className="mt-5 text-textColor text-center">
+						Don&apos;t have an account?{" "}
+						<Link
+							to="/register"
+							className="text-primaryColor hover:text-irisBlueColor font-medium ml-1 hover:border-b-2 hover:border-b-irisBlueColor"
+						>
+							Register
+						</Link>
+					</p>
 				</form>
 			</div>
 		</section>
