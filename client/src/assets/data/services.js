@@ -1,4 +1,4 @@
-export const services = [
+export const service = [
 	{
 		name: "Cancer Care",
 		desc: "World-class care for everyone. Our health System offers unmatched, expert health care. From the lab to the clinic.",
