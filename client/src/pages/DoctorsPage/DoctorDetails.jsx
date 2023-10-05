@@ -38,7 +38,7 @@ const DoctorDetails = () => {
 								</p>
 							</div>
 						</div>
-						{/* <======<<======= Second Column =======>>======> */}
+						{/* <======<<======= Second Column (Tab) =======>>======> */}
 						<div className="mt-[50px] border-b border-irisBlueColor">
 							<button
 								onClick={() => setTab("about")}
@@ -57,6 +57,7 @@ const DoctorDetails = () => {
 								Feedback
 							</button>
 						</div>
+                        {/* <======<<======= Tab Data =======>>======> */}
 						<div className="mt-[50px]">
 							{tab === "about" && <DoctorAbout />}{" "}
 							{tab === "feedback" && <Feedback />}
