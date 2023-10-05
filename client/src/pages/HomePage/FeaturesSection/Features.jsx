@@ -1,4 +1,3 @@
-import React from "react";
 import Buttons from "../../../components/Buttons/Buttons";
 import featureImg from "../../../assets/images/feature-img.png";
 import videoIcon from "../../../assets/images/video-icon.png";

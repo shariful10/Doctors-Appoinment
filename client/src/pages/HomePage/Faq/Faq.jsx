@@ -1,4 +1,3 @@
-import React from "react";
 import faqs from "../../../assets/images/faq-img.png";
 import FaqList from "./FaqList";
 

@@ -1,4 +1,3 @@
-import React from "react";
 import DoctorsList from "./DoctorsList";
 
 const GreatDoctors = () => {

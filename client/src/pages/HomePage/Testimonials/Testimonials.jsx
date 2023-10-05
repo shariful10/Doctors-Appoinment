@@ -1,4 +1,3 @@
-import React from "react";
 import TestimonialList from "./TestimonialList";
 
 const Testimonials = () => {
