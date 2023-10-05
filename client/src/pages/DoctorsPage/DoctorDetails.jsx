@@ -62,13 +62,13 @@ const DoctorDetails = () => {
 								Feedback
 							</button>
 						</div>
-						{/* <======<<======= Tab Data =======>>======> */}
+                        {/* <-------<<-------- Tab Data ------->>-------> */}
 						<div className="mt-[50px]">
 							{tab === "about" && <DoctorAbout />}{" "}
 							{tab === "feedback" && <Feedback />}
 						</div>
 					</div>
-					{/* <---------<<-------- Side Panel --------->>---------> */}
+					{/* <-------<<-------- Side Panel ------->>-------> */}
 					<div>
 						<SidePanel />
 					</div>

@@ -49,7 +49,7 @@ const Header = () => {
 						</div>
 						{/* <============= Login Button =============> */}
 						<div className="hidden lg:block">
-							<Link to="/">
+							<Link to="/login">
 								<BtnLogin title="Login" />
 							</Link>
 						</div>
@@ -100,7 +100,7 @@ const Header = () => {
 									))}
 									<div className="w-fit mx-auto">
 										<Link
-											to="/"
+											to="/login"
 											onClick={() => {
 												setShowMenu(false);
 											}}

@@ -12,7 +12,7 @@ const Feedback = () => {
 		<div>
 			<div className="mb-[50px]">
 				<h4 className="text-xl leading-[30px] font-bold text-headingsColor mb-[30px]">
-					All Review (272)
+					Total Review (272)
 				</h4>
 				<div className="flex justify-between gap-10 mb-[30px]">
 					<div className="flex gap-3">
