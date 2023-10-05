@@ -21,7 +21,7 @@ const Footer = () => {
 								<Link
 									key={id}
 									to={path}
-									className="w-10 h-10 border border-irisBlueColor rounded-full flex items-center justify-center group hover:text-white text-irisBlueColor hover:bg-primaryColor hover:border-none"
+									className="w-10 h-10 border border-primaryColor rounded-full flex items-center justify-center group hover:text-white text-primaryColor hover:bg-irisBlueColor hover:border-none"
 								>
 									<Icon className="w-5 h-5" />
 								</Link>
