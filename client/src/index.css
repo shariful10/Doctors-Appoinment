@@ -132,6 +132,14 @@ body {
 	.dateTimeVdo {
 		@apply w-[150px] lg:w-[148px] xl:w-[160px] 2xl:w-[200px] bg-white absolute bottom-[50px] md:bottom-[100px] left-1 md:left-16 lg:left-[70px] xl:left-[80px] z-20 p-2 pb-3 lg:pb-[26px] lg:pt-4 lg:px-4 rounded-[10px];
 	}
+
+	.form__label {
+		@apply text-textColor font-semibold text-[16px] leading-7 mb-2;
+	}
+
+	.form__input {
+		@apply w-full px-4 py-3 border border-primaryColor focus:outline-none focus:border-irisBlueColor text-[16px] leading-7 text-headingsColor placeholder:text-textColor cursor-pointer rounded-md;
+	}
 }
 /* <=======<<===== Custom Tailwind CSS End =====>>=======> */
 
