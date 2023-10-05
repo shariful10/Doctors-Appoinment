@@ -6,6 +6,7 @@ import Services from "../Services/Services";
 import Features from "../FeaturesSection/Features";
 import GreatDoctors from "../GreatDoctors/GreatDoctors";
 import Faq from "../Faq/Faq";
+import Testimonials from "../Testimonials/Testimonials";
 
 const Home = () => {
 	return (
@@ -17,6 +18,7 @@ const Home = () => {
 			<Features />
 			<GreatDoctors />
 			<Faq />
+			<Testimonials />
 		</>
 	);
 };
