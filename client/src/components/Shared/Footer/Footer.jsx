@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../../assets/images/logo.png";
-import { socialLinks } from "../../../assets/data/footer";
+import { quickLink01, quickLink02, quickLink03, socialLinks } from "../../../assets/data/footer";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -29,7 +29,34 @@ const Footer = () => {
 						</div>
 					</div>
 					<div>
-						<h2 className="text-[20px] leading-[30px] font-bold mb-6 text-headingsColor"></h2>
+						<h2 className="text-[20px] leading-[30px] font-bold mb-6 text-headingsColor">
+							Quick Links
+						</h2>
+						{quickLink01.map(({ id, path, display }) => (
+							<li key={id} className="list-none">
+								<Link to={path} className="text-[16px] leading-7 font-normal text-textColor">{display}</Link>
+							</li>
+						))}
+					</div>
+					<div>
+						<h2 className="text-[20px] leading-[30px] font-bold mb-6 text-headingsColor">
+							I Want to:
+						</h2>
+						{quickLink02.map(({ id, path, display }) => (
+							<li key={id} className="list-none">
+								<Link to={path} className="text-[16px] leading-7 font-normal text-textColor">{display}</Link>
+							</li>
+						))}
+					</div>
+					<div>
+						<h2 className="text-[20px] leading-[30px] font-bold mb-6 text-headingsColor">
+							Support
+						</h2>
+						{quickLink03.map(({ id, path, display }) => (
+							<li key={id} className="list-none">
+								<Link to={path} className="text-[16px] leading-7 font-normal text-textColor">{display}</Link>
+							</li>
+						))}
 					</div>
 				</div>
 			</div>
