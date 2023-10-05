@@ -48,12 +48,7 @@ const Header = () => {
 							</Link>
 						</div>
 						{/* <============= Login Button =============> */}
-						{/* <Link to="/login">
-							<button className="bg-primaryColor py-2 px-6 text-white font-semibold h-[44px] flex items-center justify-center rounded-[50px]">
-								Login
-							</button>
-						</Link> */}
-						<div className="">
+						<div className="hidden lg:block">
 							<Link to="/">
 								<BtnLogin title="Login" />
 							</Link>
@@ -95,14 +90,24 @@ const Header = () => {
 												}}
 												className={(navClass) =>
 													navClass.isActive
-														? "text-primaryColor text-[16px] leading-7 font-semibold py-3 w-[15rem] block bg-[#0066ff6b] my-5"
-														: "text-textColor text-[16px] leading-7 font-semibold hover:text-primaryColor  py-3 w-[15rem] block my-5 hover:bg-[#0066ff82]"
+														? "text-primaryColor text-[16px] leading-7 font-semibold py-3 w-[15rem] block bg-[#0066ff6b] my-5 text-center"
+														: "text-textColor text-[16px] leading-7 font-semibold hover:text-primaryColor  py-3 w-[15rem] block my-5 hover:bg-[#0066ff82] text-center"
 												}
 											>
 												{display}
 											</NavLink>
 										</li>
 									))}
+									<div className="w-fit mx-auto">
+										<Link
+											to="/"
+											onClick={() => {
+												setShowMenu(false);
+											}}
+										>
+											<BtnLogin title="Login" />
+										</Link>
+									</div>
 								</div>
 							</ul>
 						</div>
