@@ -1,3 +1,5 @@
+import BtnSubmit from "../../components/BtnSubmit/BtnSubmit";
+
 const Contact = () => {
 	return (
 		<section>
@@ -16,7 +18,7 @@ const Contact = () => {
 							name="email"
 							id="email"
 							placeholder="example@gmail.com"
-                            className="form__input mt-1"
+							className="form__input mt-1"
 						/>
 					</div>
 					<div>
@@ -28,7 +30,7 @@ const Contact = () => {
 							name="subject"
 							id="subject"
 							placeholder="Let us know how we can help you"
-                            className="form__input mt-1"
+							className="form__input mt-1"
 						/>
 					</div>
 					<div className="sm:col-span-2">
@@ -36,14 +38,20 @@ const Contact = () => {
 							Your Message
 						</label>
 						<textarea
-                            rows="6"
+							rows="6"
 							type="text"
 							name="message"
 							id="message"
 							placeholder="Leave a comment..."
-                            className="form__input mt-1"
+							className="form__input mt-1"
 						/>
 					</div>
+					<button
+						type="submit"
+						className="bg-primaryColor px-5 md:px-10 py-2 md:py-3 rounded md:font-semibold primary__btn text-white mt-5"
+					>
+						Submit
+					</button>
 				</form>
 			</div>
 		</section>
