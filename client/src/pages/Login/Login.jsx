@@ -26,7 +26,7 @@ const Login = () => {
 							placeholder="Enter Your Email"
 							value={formData.email}
 							onChange={handleInputChange}
-							className="w-full px-4 py-3 border-b border-primaryColor focus:outline-none focus:border-b-irisBlueColor text-[16px] leading-7 text-headingsColor placeholder:text-textColor rounded-md cursor-pointer"
+							className="w-full px-2 py-3 border-b border-primaryColor focus:outline-none focus:border-b-irisBlueColor text-[16px] leading-7 text-headingsColor placeholder:text-textColor rounded-md cursor-pointer"
 							required
 						/>
 					</div>
@@ -37,7 +37,7 @@ const Login = () => {
 							placeholder="Enter Your Password"
 							value={formData.password}
 							onChange={handleInputChange}
-							className="w-full px-4 py-3 border-b border-primaryColor focus:outline-none focus:border-b-irisBlueColor text-[16px] leading-7 text-headingsColor placeholder:text-textColor rounded-md cursor-pointer"
+							className="w-full px-2 py-3 border-b border-primaryColor focus:outline-none focus:border-b-irisBlueColor text-[16px] leading-7 text-headingsColor placeholder:text-textColor rounded-md cursor-pointer"
 							required
 						/>
 					</div>
@@ -48,7 +48,7 @@ const Login = () => {
 						Don&apos;t have an account?{" "}
 						<Link
 							to="/register"
-							className="text-primaryColor hover:text-irisBlueColor font-medium ml-1 hover:border-b-2 hover:border-b-irisBlueColor"
+							className="text-primaryColor hover:text-irisBlueColor font-medium ml-1  hover:underline"
 						>
 							Register
 						</Link>

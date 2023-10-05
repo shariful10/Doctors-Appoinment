@@ -40,7 +40,6 @@ const Feedback = () => {
 			</div>
 			{!showFeedbackForm && (
 				<div onClick={() => setShowFeedbackForm(true)} className="text-center mt-5">
-					{/* <button className="btn hover:bg-irisBlueColor">Give Feedback</button> */}
 					<Buttons title="Share Your Feedback" />
 				</div>
 			)}
